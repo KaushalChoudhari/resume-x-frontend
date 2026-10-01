@@ -7,7 +7,7 @@ import {
 
 const ResumeContext = createContext();
 
-const API_URL = "http://localhost:8081/api/resumes";
+const API_URL = `${import.meta.env.VITE_API_URL}/api/resumes`;
 
 // ================================================
 // EMPTY RESUME DATA
